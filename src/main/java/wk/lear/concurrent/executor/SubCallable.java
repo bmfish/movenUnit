@@ -28,7 +28,7 @@ public class SubCallable implements Callable<Bean> {
              bean.setUserAge(Thread.currentThread().getName()+":"+i);
              bean.setUserAddress(Thread.currentThread().getName()+":"+i);
              bean.setTaskCount(taskCount);
-         //    System.out.println(JSONObject.toJSONString(wk.cityhome.dowork.bean));
+         //    System.out.println(JSONObject.toJSONString(cbj.dowork.bean));
         }
         return bean;
     }
