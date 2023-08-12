@@ -16,8 +16,5 @@ public class ThreadLocalDemo {
         ThreadLocal<String> threadLocal=new ThreadLocal<>();
         ExecutorService threadPool = Executors.newFixedThreadPool(20);
         threadPool.execute(() -> threadLocal.set("綫程1："+Thread.currentThread().getName()));
-      
-
-
     }
 }

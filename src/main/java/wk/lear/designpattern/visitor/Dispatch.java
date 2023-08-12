@@ -15,15 +15,15 @@ package wk.lear.designpattern.visitor;
 //所以重载的分派是根据静态类型进行的
 public class Dispatch {
 	void print(FatherClass c){
-		System.out.print("父类");
+		System.out.println("父类");
 	}
 	void print(ChildClass c){
-		System.out.print("子类");
+		System.out.println("子类");
 	}
 	public static void main(String args[]){
 		FatherClass child = new ChildClass();
 		new Dispatch().print(child);
-		child.print();
+		//child.print();
 	}
 }
 
