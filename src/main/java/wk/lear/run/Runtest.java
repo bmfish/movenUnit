@@ -8,7 +8,7 @@
  *
  */
 
-package wk;
+package wk.lear.run;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

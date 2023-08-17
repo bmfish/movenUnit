@@ -1,5 +1,5 @@
 /*
- * FileName: linkedHashMapForLRU.java
+ * FileName: LRUForLinkedHashMap.java
  * Author:   bm
  * Date:     2021-06-23 00:40:29
  * Description: //模块目的、功能描述
@@ -8,13 +8,16 @@
  *
  */
 
-package wk.lear.algorithm;
+package wk.lear.run.suanfa14;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class linkedHashMapForLRU {
+/**
+ * LinkedHashMap实现LRU
+ */
+public class LRUForLinkedHashMap {
 
 
     public static void main(String[] args) {
