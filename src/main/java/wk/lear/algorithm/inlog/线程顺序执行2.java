@@ -1,6 +1,5 @@
-package wk.lear.inlog;
+package wk.lear.algorithm.inlog;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Lock;

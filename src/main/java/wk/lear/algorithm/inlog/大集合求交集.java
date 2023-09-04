@@ -1,4 +1,4 @@
-package wk.lear.inlog;
+package wk.lear.algorithm.inlog;
 
 import java.util.ArrayList;
 import java.util.HashSet;
