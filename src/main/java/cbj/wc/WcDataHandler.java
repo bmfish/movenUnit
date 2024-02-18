@@ -22,7 +22,7 @@ public class WcDataHandler {
 
     public static void main(String[] args) throws Exception {
 
-        String filePath = "E:\\360MoveData\\Users\\zyc\\Desktop\\wacai\\wacai\\wacai2209-2302.txt";
+        String filePath = "C:\\Users\\admin\\Desktop\\wacai.txt";
         File file = new File(filePath);
 
         //  JSONObject jsonObject = JSONObject.parseObject(fileStr, JSONObject.class);
